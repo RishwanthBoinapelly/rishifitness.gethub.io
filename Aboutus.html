@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style>
+        body {
+            background-image: url("img/fitness1.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-blend-mode:color-dodge;
+        }
+
+        .class {
+            padding: 3px auto;
+            display: inline-block;
+            width: 33%;
+
+        }
+
+        img {
+    display: block;
+    width: 62%;
+    height: 150px;
+}
+
+        .text {
+            cursor: pointer;
+            color: #cbae1c;
+            font-size: large;
+        }
+
+        .text:hover,
+        .text:active {
+            text-decoration: underline;
+            
+        }
+
+        strong {
+            text-decoration: underline;
+            color: rgb(221, 0, 255);
+        }
+
+        .note {
+            color: #cbae1c;
+            font-size: large;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 57px;
+            font-size:x-large;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: #cbae1c;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .mid {
+
+            /* border: 2px solid rgb(26, 210, 10);  */
+
+            width: 49%;
+
+            margin: 20px auto;
+
+        }
+        th,tr,td,.empty{
+            border:2px solid #cbae1c;
+            color:antiquewhite;
+            font-size: large;
+        }
+        h1,h4{
+            cursor:pointer;
+        }
+        h1:hover,h1:active,h4:hover,h4:active{
+            text-decoration:underline;
+            color:#cbae1c;
+        }
+        h4{
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mid">
+        <!-- Mid box for navigation -->
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutus.html" class="active"> About us</a></li>
+
+            <li><a href="contactus.html">Contact us</a></li>
+        </ul>
+    </div>
+    <h1 style="color:#cbae1c;">Welcome To Rishi Fitness</h1>
+    <h4 style="color:#cbae1c;">Services Provided by us are:</h4>
+    <div class="class">
+        <img src="img/cardio.jpg " alt="">
+        <div class="text">Cardio</div>
+    </div>
+    <div class="class">
+        <img src="img/fitness.jpg " alt="">
+        <div class="text">Body Building</div>
+    </div>
+    <div class="class">
+        <img src="img/kickboxing.jpg " alt="">
+        <div class="text">Kick Boxing </div>
+    </div>
+    <div class="class">
+        <img src="img/cross_area.jpg " alt="">
+        <div class="text">Cross Area Fitness</div>
+    </div>
+    <div class="class">
+        <img src="img/massage.jpg " alt="">
+        <div class="text">massage(paid)</div>
+    </div>
+    <div class="list">
+        <ul>
+            <li>Other Services are:</li>
+            <ol>
+                <li>Steam-Bath(Free)</li>
+                <li>Diet and Nutrition Counselling(paid)</li>
+            </ol>
+        </ul>
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                <th >S.No</th>
+                <th>Services</th>
+                <th>Duration</th>
+                <th>Valid Days</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>one time Registration fee</td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td>500 0ff</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CHCF(complete health club facilities)</td>
+                <td>1-Months <br>3-Months <br> 6-Months <br> 12-Months</td>
+                <td>30 <br> 90 <br>180 <br>365</td>
+                <td>1500 <br> 4000 <br> 7000 <br> 12500</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Personal Training</td>
+                <td>1-Months <br> 3-Months <br> 6-Months <br> 12-Months</td>
+                <td>13 <br> 39 <br> 78 <br> 156 </td>
+                <td>4000 <br> 10000 <br> 20000 <br> 40000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Couple Package</td>
+                <td> 1 <br> 3 <br> 12</td>
+                <td>30 <br>90 <br>365 </td>
+                <td>2000 <br>5000 <br>16000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Diet per session</td>
+                <td>Normal per session <br>Medium per session <br>High per session</td>
+                <td class="empty"> </td>
+
+                <td>500 <br>1000 <br>2000</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Massage half body <br>Massage full body</td>
+                <td>15 minutes session <br>30 minutes session</td>
+                <td class="empty"> </td>
+                <td> 500 <br>1000</td>
+            </tr>
+        </table>
+    </div>
+    <div class="note">
+        <h3>NOTE:</h3>
+        <ul>
+            <li>Free services are provided free for those join the gym with any package.</li>
+            <li>Paid services are provided for those who pay extra money along with their packages.</li>
+            <li><strong>Transfer</strong> and <strong>Refunds</strong> are not allowed once paid for the services.</li>
+            <li>No <strong>freezing</strong> option.</li>
+            <li>Management reserves right to the admission.</li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>
